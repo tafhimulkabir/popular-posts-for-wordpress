@@ -19,9 +19,9 @@ Popular Posts for WordPress is a simple widget that displays the most popular po
 
 ## Authors
 
-* **Tafhimul kabir** - *Initial work* - [PurpleBooth](https://github.com/tafhimul/)
+* **Tafhimul kabir** - *Initial work* - [Upwork](https://www.upwork.com/freelancers/~01a0097719a5f77810)
 
 
 ## License
 
-This project is licensed under the GNU General Public License v2 or later
+This project is licensed under the [GNU General Public License](http://www.gnu.org/licenses/gpl-2.0.html) v2 or later
