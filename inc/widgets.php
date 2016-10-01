@@ -63,7 +63,7 @@ class ppw_popular_posts_widget extends WP_Widget{
         
             if( $post_query->have_posts() ) :
                 echo '<div class="popular-posts-custom-widget">';
-                    while( $post_query->have_posts() ) : $post_query->the_post();
+                    while( $posts_query->have_posts() ): $posts_query->the_post();
                         echo '<div class="fix">';
                         echo '<div class="col-xs-5 popular-posts-thumbnail">'.get_the_post_thumbnail(). '</div>';
                         echo '<div class="col-xs-7">';
