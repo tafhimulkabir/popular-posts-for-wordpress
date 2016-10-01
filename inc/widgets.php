@@ -53,7 +53,7 @@ class ppw_popular_posts_widget extends WP_Widget{
             
         );
         
-        $post_query = new WP_Query( $post_args );
+        $posts_query = new WP_Query( $post_args );
         
         echo $args[ 'before_widget' ];
         
@@ -61,7 +61,7 @@ class ppw_popular_posts_widget extends WP_Widget{
                 echo $args[ 'before_title' ].apply_filters( 'widget_title', $instance[ 'title' ] ).$args[ 'after_title' ];
             endif;
         
-            if( $post_query->have_posts() ) :
+            if( $posts_query->have_posts() ) :
                 echo '<div class="popular-posts-custom-widget">';
                     while( $posts_query->have_posts() ): $posts_query->the_post();
                         echo '<div class="fix">';
